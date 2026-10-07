@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "Plus Jakarta Sans", "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* FORGE Design System Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #090A0C;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1F2430;
+  border-radius: 9999px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2D3748;
+}
+
+/* FORGE Industrial Focus & Glow */
+.forge-focus-ring:focus-within,
+.forge-focus-ring:focus {
+  border-color: #D97706 !important;
+  box-shadow: 0 0 0 1px #D97706;
+}
+
+.forge-steel-focus:focus {
+  border-color: #38BDF8 !important;
+  box-shadow: 0 0 0 1px #38BDF8;
+}

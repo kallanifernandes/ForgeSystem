@@ -1,0 +1,6 @@
+{
+  "name": "FORGE - BUILD YOURSELF",
+  "description": "Plataforma de alta performance pessoal focada no desenvolvimento integral: Treino, Nutrição, Hábitos e Análise de Disciplina.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
